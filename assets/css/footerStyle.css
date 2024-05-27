@@ -1,0 +1,30 @@
+/* Footer styles */
+.footer {
+    background-color: #100e0e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .social-icons {
+    margin: 10px 0;
+}
+
+.footer .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+    color: #d3d3d3;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}

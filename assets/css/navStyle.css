@@ -1,0 +1,133 @@
+
+.navbar{
+    background-color: #100e0e;
+    height: 120px;
+    width: 100%;  
+}
+
+.logo{
+    color: aliceblue;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.navbar ul{
+display: flex;
+flex-direction: row;
+justify-content:flex-end;
+}
+
+.navbar ul li{
+   
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    color: rgb(241, 241, 241);
+}
+
+.navbar ul #signup{
+margin-right: 15px;
+padding:3px;
+text-transform: uppercase;
+}
+
+.navbar ul #signin{
+margin-right: 15px;
+padding:3px;
+text-transform: uppercase;
+}
+
+a:hover{
+    background-color: #8dc856;
+    transition: .5sec;
+}
+
+@media (max-width: 768px) {
+
+.logo{
+    color: aliceblue;
+    font-size: 25px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar ul{
+display: flex;
+flex-direction: row;
+justify-content:center;
+}
+
+.navbar ul li{
+   
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+
+.navbar ul #signup{
+margin-right: 10px;
+padding:3px;
+text-transform: uppercase;
+}
+
+.navbar ul #signin{
+margin-right: 10px;
+padding:3px;
+text-transform: uppercase;
+}
+}
+
+@media (max-width: 480px) {
+    
+    .navbar{
+    background-color: #100e0e;
+    height: 120px;
+    width: 100%;  
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.navbar ul{
+display: flex;
+flex-direction: row;
+justify-content:center;
+}
+
+.navbar ul li{
+    margin: 0 10px ;
+    text-transform: uppercase;
+}
+
+.navbar ul #signup{
+margin-right: 10px;
+padding:3px;
+text-transform: uppercase;
+}
+
+.navbar ul #signin{
+margin-right: 10px;
+padding:3px;
+
+text-transform: uppercase;
+}
+}
+
+
